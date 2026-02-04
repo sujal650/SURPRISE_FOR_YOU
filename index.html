@@ -294,7 +294,7 @@
             </div>
             <p class="text-gray-300 mb-6 text-sm">Mundina varsha ninage sigabekaada ella preeti mattu nijaada santhosha sigali.</p>
             <div id="final-message" class="hidden text-xl font-bold text-pink-400 mb-6">Happy Birthday, My Favorite Person! ❤️</div>
-            <button id="celebrate-btn" onclick="document.getElementById('bgMusic').pause();document.getElementById('popMusic').play(); startFinale()" class="btn-primary">Celebrate!</button>
+            <button id="celebrate-btn" onclick="document.getElementById('bgMusic').play();document.getElementById('popMusic').play(); startFinale()" class="btn-primary">Celebrate!</button>
         </div>
     </div>
 
@@ -303,7 +303,7 @@
     const audio = document.getElementById('bgMusic');
 
     // Set volume to 50%
-    audio.volume = 0.1;
+    audio.volume = 0.5;
 
         /* --- THREE.JS BACKGROUND --- */
         let scene, camera, renderer, hearts = [];
@@ -453,3 +453,4 @@
 </body>
 
 </html>
+
